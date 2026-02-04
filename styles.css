@@ -1,0 +1,112 @@
+/* Google Font Import Rules */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* RESET STYLESHEET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* VARIABLES */
+
+:root {
+  --neon-green: hsl(75, 94%, 57%); /* cta color */
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --darker-grey: hsl(0, 0%, 12%);
+  --darkest-grey: hsl(0, 0%, 8%);
+  --default-font-size: 14px;
+}
+
+/* Google Font Styles */
+.inter-300 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-700 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* BODY */
+body {
+    background-color: var(--darkest-grey);
+}
+
+/* SOCIAL PROFILE */
+#social-profile {
+    border-radius: 15px;
+    background-color: var(--darker-grey);
+    width: 375px;
+    margin: auto;
+    text-align: center;
+    font-size: var(--default-font-size);
+    margin-top: 100px;
+    padding: 20px 0;
+}
+
+#social-profile img {
+    width: 25%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* HEADINGS */
+
+h1 {
+    color: var(--white);
+    margin: 30px 0 10px 0;
+}
+
+h2 {
+    color: var(--neon-green);
+    font-size: var(--default-font-size);
+}
+
+/* Paragraphs */
+
+p{
+    color: var(--white);
+    /* outline: 1px solid red; */
+    margin: 30px 0;
+}
+
+/* Hyperlinks */
+
+#social-profile a{
+    display: block;
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--grey);
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 15px 0;
+}
+
+#social-profile a:hover {
+    background-color: var(--neon-green);
+    color: var(--darkest-grey);
+}
